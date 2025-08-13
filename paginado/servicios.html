@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAGUNA SONDER - Consultoría Premium</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        :root {
+            --blue-main: #1F4E79;
+            --blue-sec: #2E75B6;
+            --gray-light: #F5F6FA;
+            --gold: #CDA349;
+        }
+        
+        .font-serif-premium {
+            font-family: 'Merriweather', serif;
+        }
+    </style>
+</head>
+
+<body class="font-sans text-gray-800">
+    <!-- Header -->
+    <header class="bg-[var(--blue-main)] shadow w-full z-50">
+        <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center space-x-3">
+                <img src="../assets/logo2-removebg-preview.png" alt="Laguna Sonder Logo" class="h-12 w-auto object-contain">
+                <h1 class="text-2xl font-serif-premium font-bold text-white">LAGUNA SONDER</h1>
+            </div>
+
+            <!-- Navegación -->
+            <nav class="hidden md:flex space-x-6">
+                <a href="index.html" class="text-white hover:text-[var(--gold)] transition">Quiénes Somos</a>
+                <a href="servicios.html" class="text-white hover:text-[var(--gold)] transition">Servicios</a>
+                <a href="clientes.html" class="text-white hover:text-[var(--gold)] transition">Clientes</a>
+                <a href="contacto.html" class="bg-[var(--gold)] text-white px-4 py-2 rounded-lg shadow hover:bg-yellow-600 transition">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Servicios -->
+    <section class="py-20 animate__animated animate__fadeInUp">
+        <div class="max-w-7xl mx-auto px-6">
+            <h3 class="text-3xl font-serif-premium text-center mb-12 text-[var(--blue-main)]">Nuestros Servicios</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition border-t-4 border-[var(--gold)]">
+                    <h4 class="text-xl font-semibold mb-2">Contabilidad</h4>
+                    <p class="text-justify">Brindamos un servicio integral en el área contable
+                    y fiscal, dirigido tanto a personas físicas como
+                    morales, sin importar el régimen fiscal en el que se
+                    encuentren inscritos.
+                    Entre nuestras principales actividades se incluyen:
+                    Registro y control contable conforme a la
+                    normatividad vigente.
+                    Elaboración y análisis de estados financieros.
+                    Depuración y conciliación de cuentas
+                    contables.
+                    Cálculo y presentación de pagos provisionales
+                    y definitivos de impuestos.
+                    Preparación y presentación de declaraciones
+                    informativas y anuales de impuestos federales.
+                    Nuestro enfoque está orientado a garantizar el cumplimiento
+                    oportuno y preciso de las obligaciones fiscales, así como a
+                    proporcionar información financiera confiable para la toma de
+                    decisiones. <a href="#" onclick="openModal('modal2'); return false;" class="text-xl text-[var(--blue-main)] border-b-2 border-[var(--gold)] hover:border-blue-700 pb-1 font-medium transition">Servicios especializados</a>
+                    </p>
+                    
+                    <div class="text-center mt-12">
+                        <a href="servicios.html" class="inline-flex items-center bg-[var(--gold)] hover:bg-yellow-600 text-white font-medium px-8 py-3 rounded-lg shadow transition-all hover:shadow-lg">
+                            <span>Agendar cita</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition border-t-4 border-[var(--gold)]">
+                    <h4 class="text-xl font-semibold mb-2">Administración de Nómina</h4>
+                    <p class="text-justify">Ofrecemos soluciones integrales en materia laboral y de
+                    nómina, orientadas a asegurar el cumplimiento normativo y
+                    la eficiencia fiscal en la gestión del capital humano.
+                    Nuestros servicios incluyen:
+                    Elaboración y revisión de contratos laborales, tanto
+                    permanentes como eventuales.
+                    Preparación, revisión y supervisión de nóminas,
+                    conforme a la legislación vigente.
+                    Emisión de recibos de nómina timbrados.
+                    Cálculo y presentación de pagos mensuales al IMSS e
+                    INFONAVIT.
+                    Tramitación de movimientos afiliatorios ante el IMSS
+                    (altas, bajas y modificaciones).
+                    Cálculo y revisión del Impuesto Sobre Nómina (ISN).
+                    Proyección y asesoría para la optimización de la carga
+                    fiscal en materia laboral.
+                    Nuestro equipo especializado garantiza procesos precisos,
+                    eficientes y adaptados a las necesidades de cada cliente.
+                    </p>
+                    
+                    <div class="text-center mt-12">
+                        <a href="servicios.html" class="inline-flex items-center bg-[var(--gold)] hover:bg-yellow-600 text-white font-medium px-8 py-3 rounded-lg shadow transition-all hover:shadow-lg">
+                            <span>Agendar cita</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition border-t-4 border-[var(--gold)]">
+                    <h4 class="text-xl font-semibold mb-2">Asesoría de Negocios</h4>
+                    <p class="text-justify">Ofrecemos un servicio de acompañamiento fiscal
+                    continuo, orientado a resolver de manera oportuna y
+                    precisa cualquier situación derivada de la operación
+                    cotidiana de su negocio.
+                    Nuestros servicios en esta área incluyen:
+                    Análisis y atención de problemas o consultas de
+                    naturaleza fiscal derivados de sus operaciones.
+                    Respuesta a consultas planteadas de forma verbal,
+                    telefónica o por escrito, con entrega de opinión formal
+                    cuando así se requiera.
+                    Asesoría actualizada y constante sobre modificaciones a
+                    la normatividad fiscal vigente.
+                    Revisión conceptual y técnica de los cálculos y
+                    declaraciones que el cliente prepare, incluyendo pagos
+                    provisionales y definitivos de impuestos.
+                    Nuestro objetivo es brindar claridad, certeza y
+                    cumplimiento en todas sus obligaciones fiscales,
+                    respaldados por un equipo con experiencia y
+                    conocimiento actualizado.
+                    </p>
+                    <div class="text-center mt-12">
+                        <a href="servicios.html" class="inline-flex items-center bg-[var(--gold)] hover:bg-yellow-600 text-white font-medium px-8 py-3 rounded-lg shadow transition-all hover:shadow-lg">
+                            <span>Agendar cita</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition border-t-4 border-[var(--gold)]">
+                    <h4 class="text-xl font-semibold mb-2">Planeaciones Fiscales</h4>
+                    <p class="text-justify">Brindamos asesoría estratégica para la optimización fiscal y
+                    financiera de su empresa, siempre dentro del marco legal y
+                    en cumplimiento con la normativa vigente. Nuestro enfoque
+                    está orientado a generar estructuras eficientes que apoyen la
+                    sostenibilidad y el crecimiento de su organización.
+                    Nuestros servicios incluyen:
+                    Análisis y revisión integral de la situación fiscal, financiera
+                    y corporativa, con el objetivo de identificar oportunidades
+                    de eficiencia tributaria conforme a las disposiciones
+                    legales aplicables.
+                    Asesoría y acompañamiento en procesos de liquidación
+                    de entidades legales.
+                    Diseño e implementación de esquemas operativos
+                    orientados a mejorar la eficiencia fiscal y financiera de la
+                    empresa.
+                    Constitución de nuevas empresas o estructuras
+                    corporativas diseñadas para operar con eficiencia fiscal
+                    desde su origen.
+                    Contamos con la experiencia necesaria para asesorar tanto a
+                    empresas nacionales como a grupos corporativos en
+                    procesos de reestructuración y planeación estratégica.
+                    </p>
+                    
+                    <div class="text-center mt-12">
+                        <a href="servicios.html" class="inline-flex items-center bg-[var(--gold)] hover:bg-yellow-600 text-white font-medium px-8 py-3 rounded-lg shadow transition-all hover:shadow-lg">
+                            <span>Agendar cita</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition border-t-4 border-[var(--gold)]">
+                    <h4 class="text-xl font-semibold mb-2">CONSULTORÍA Y DEFENSORÍA LEGAL FISCAL</h4>
+                    <p class="text-justify">Elaboración de amparos en materia federal,
+                    estatal y municipal que redunden en la
+                    obtención de importes en devolución sobre
+                    contribuciones pagadas indebidamente en
+                    referencia a las bases legales correspondientes.</p>
+                    <p class="text-justify mt-5">Defensoría en contra de multas, requerimientos
+                    o cualquier otro acto de autoridades del orden
+                    federal, estatal, municipal, o cualquier otro
+                    órgano centralizado o descentralizado de la
+                    administración pública.
+                    </p>
+                    
+                    <div class="text-center mt-12">
+                        <a href="servicios.html" class="inline-flex items-center bg-[var(--gold)] hover:bg-yellow-600 text-white font-medium px-8 py-3 rounded-lg shadow transition-all hover:shadow-lg">
+                            <span>Agendar cita</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="bg-[var(--blue-main)] text-white py-20 animate__animated animate__fadeInUp mt-5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="md:flex gap-12 items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h3 class="text-4xl font-serif-premium mb-6">¿Tienes alguna duda?</h3>
+                    <p class="text-xl mb-8 opacity-90">Contáctanos directamente a través de nuestros canales:</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-[var(--gold)] p-2 rounded-full mr-4 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-medium">Teléfono</h4>
+                                <p class="mb-2">+52 1 871 308 1763</p>
+                                <a href="tel:+528713081763" class="text-[var(--gold)] hover:underline">Llamar ahora</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="bg-[var(--gold)] p-2 rounded-full mr-4 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-medium">Correo electrónico</h4>
+                                <p class="mb-2">atencionalcliente@lagunasonder.com.mx</p>
+                                <a href="mailto:atencionalcliente@lagunasonder.com.mx" class="text-[var(--gold)] hover:underline">Enviar email</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="bg-[var(--gold)] p-2 rounded-full mr-4 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-medium">Sitio web</h4>
+                                <p class="mb-2">www.lagunasonder.com</p>
+                                <a href="https://www.lagunasonder.com" target="_blank" rel="noopener noreferrer" class="text-[var(--gold)] hover:underline">Visitar sitio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:w-1/2 bg-white/10 p-8 rounded-xl backdrop-blur-sm">
+                    <h4 class="text-2xl font-medium mb-6">Envíanos un mensaje</h4>
+                    <form class="space-y-4">
+                        <div>
+                            <input type="text" placeholder="Nombre completo" class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Correo electrónico" class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]">
+                        </div>
+                        <div>
+                            <textarea placeholder="Tu mensaje" rows="4" class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-[var(--gold)] hover:bg-yellow-600 text-white font-medium px-6 py-3 rounded-lg transition-all">
+                            Enviar mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-6 text-center">
+        © 2025 LAGUNA SONDER. Todos los derechos reservados.
+    </footer>
+
+    <!-- Modal 2 -->
+    <div id="modal2" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-lg max-w-3xl w-full mx-4 max-h-[90vh] overflow-y-auto">
+            <!-- Encabezado -->
+            <div class="flex justify-between items-center border-b p-4">
+            <h3 class="text-2xl font-bold text-[var(--blue-main)]">Servicios Contables Integrales</h3>
+            <button onclick="closeModal('modal2')" class="text-gray-500 hover:text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            </div>
+            
+            <!-- Contenido -->
+            <div class="max-w-3xl mx-auto bg-gray-50 p-8 rounded-xl">
+                <ol class="space-y-6">
+                    <li class="flex">
+                        <span class="flex-shrink-0 flex items-center justify-center bg-[var(--gold)] text-white font-bold w-8 h-8 rounded-full mr-4">1</span>
+                        <div>
+                            <h4 class="font-semibold text-lg text-gray-800">Declaraciones Mensuales</h4>
+                            <p class="text-gray-600 mt-1">Expertos en preparación y presentación de declaraciones mensuales con la máxima precisión</p>
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <span class="flex-shrink-0 flex items-center justify-center bg-[var(--gold)] text-white font-bold w-8 h-8 rounded-full mr-4">2</span>
+                        <div>
+                            <h4 class="font-semibold text-lg text-gray-800">Declaraciones Anuales</h4>
+                            <p class="text-gray-600 mt-1">Presentación profesional de declaraciones anuales cumpliendo con todos los requisitos fiscales</p>
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <span class="flex-shrink-0 flex items-center justify-center bg-[var(--gold)] text-white font-bold w-8 h-8 rounded-full mr-4">3</span>
+                        <div>
+                            <h4 class="font-semibold text-lg text-gray-800">Estrategia Fiscal</h4>
+                            <p class="text-gray-600 mt-1">Desarrollo de estrategias fiscales personalizadas según el giro de su negocio</p>
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <span class="flex-shrink-0 flex items-center justify-center bg-[var(--gold)] text-white font-bold w-8 h-8 rounded-full mr-4">4</span>
+                        <div>
+                            <h4 class="font-semibold text-lg text-gray-800">Cálculo de Impuestos</h4>
+                            <p class="text-gray-600 mt-1">Cálculo meticuloso de impuestos antes del envío de declaraciones para evitar errores</p>
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <span class="flex-shrink-0 flex items-center justify-center bg-[var(--gold)] text-white font-bold w-8 h-8 rounded-full mr-4">5</span>
+                        <div>
+                            <h4 class="font-semibold text-lg text-gray-800">Evaluaciones Financieras</h4>
+                            <p class="text-gray-600 mt-1">Asesoría experta en evaluaciones financieras para la toma de decisiones estratégicas</p>
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <span class="flex-shrink-0 flex items-center justify-center bg-[var(--gold)] text-white font-bold w-8 h-8 rounded-full mr-4">6</span>
+                        <div>
+                            <h4 class="font-semibold text-lg text-gray-800">Administración de Nóminas</h4>
+                            <p class="text-gray-600 mt-1">Gestión completa y eficiente de nóminas para su organización</p>
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <span class="flex-shrink-0 flex items-center justify-center bg-[var(--gold)] text-white font-bold w-8 h-8 rounded-full mr-4">7</span>
+                        <div>
+                            <h4 class="font-semibold text-lg text-gray-800">Constitución de Sociedades</h4>
+                            <p class="text-gray-600 mt-1">Asesoría integral en trámites fiscales desde el inicio de la constitución de sociedades</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            
+            <!-- Pie -->
+            <div class="border-t p-4 flex justify-end">
+            <button onclick="closeModal('modal2')" class="bg-[var(--gold)] text-white px-4 py-2 rounded hover:bg-yellow-600">
+                Cerrar
+            </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./src/scripts.js"></script>
+
+</html>

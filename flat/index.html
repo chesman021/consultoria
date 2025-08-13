@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAGUNA SONDER - Consultoría Premium</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        :root {
+            --blue-main: #1F4E79;
+            --blue-sec: #2E75B6;
+            --gray-light: #F5F6FA;
+            --gold: #CDA349;
+        }
+        
+        .font-serif-premium {
+            font-family: 'Merriweather', serif;
+        }
+    </style>
+</head>
+
+<body class="font-sans text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-[var(--blue-main)] shadow w-full z-50">
+        <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center space-x-3">
+                <img src="../assets/logo2-removebg-preview.png" alt="Laguna Sonder Logo" class="h-12 w-auto object-contain">
+                <h1 class="text-2xl font-serif-premium font-bold text-white">LAGUNA SONDER</h1>
+            </div>
+
+            <!-- Navegación -->
+            <nav class="hidden md:flex space-x-6">
+                <a href="#quienes" class="text-white hover:text-[var(--gold)] transition">Quiénes Somos</a>
+                <a href="#servicios" class="text-white hover:text-[var(--gold)] transition">Servicios</a>
+                <a href="#clientes" class="text-white hover:text-[var(--gold)] transition">Clientes</a>
+                <a href="#contacto" class="bg-[var(--gold)] text-white px-4 py-2 rounded-lg shadow hover:bg-yellow-600 transition">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Hero -->
+    <section class="bg-gradient-to-r from-[var(--blue-main)] to-[var(--blue-sec)] text-white py-32 text-center mt-16 animate__animated animate__fadeIn">
+        <h2 class="text-4xl md:text-5xl font-serif-premium mb-4">Excelencia en Consultoría Contable, Fiscal y Financiera</h2>
+        <p class="text-lg max-w-2xl mx-auto mb-6">Impulsamos tu empresa con soluciones integrales, estratégicas y personalizadas.</p>
+        <a href="#contacto" class="bg-[var(--gold)] text-white px-6 py-3 rounded-lg hover:bg-yellow-600 shadow-lg transition">Solicitar Asesoría</a>
+    </section>
+
+    <!-- Quiénes Somos -->
+    <section id="quienes" class="py-20 bg-[var(--gray-light)] animate__animated animate__fadeInUp">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+            <div>
+                <h3 class="text-3xl font-serif-premium mb-6 text-[var(--blue-main)]">Quiénes Somos</h3>
+                <p class="mb-4">Somos un equipo de especialistas con amplia experiencia en contabilidad, fiscalidad y consultoría empresarial, enfocados en la excelencia y calidad.</p>
+                <p>Trabajamos con un enfoque estratégico para maximizar el valor y el cumplimiento en cada operación.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-[var(--gold)]">
+                <h4 class="text-xl font-semibold mb-3 text-[var(--blue-sec)]">Valores</h4>
+                <ul class="space-y-2">
+                    <li>✔ Trabajo en Equipo</li>
+                    <li>✔ Servicio</li>
+                    <li>✔ Honestidad</li>
+                    <li>✔ Confianza</li>
+                    <li>✔ Compromiso</li>
+                    <li>✔ Excelencia</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-20 animate__animated animate__fadeInUp">
+        <div class="max-w-7xl mx-auto px-6">
+            <h3 class="text-3xl font-serif-premium text-center mb-12 text-[var(--blue-main)]">Nuestros Servicios</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition border-t-4 border-[var(--gold)]">
+                    <h4 class="text-xl font-semibold mb-2">Contabilidad</h4>
+                    <p>Registro contable, estados financieros, declaraciones y asesoría fiscal personalizada.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition border-t-4 border-[var(--gold)]">
+                    <h4 class="text-xl font-semibold mb-2">Administración de Nómina</h4>
+                    <p>Gestión integral de nóminas, contratos, pagos e IMSS/INFONAVIT con eficiencia fiscal.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition border-t-4 border-[var(--gold)]">
+                    <h4 class="text-xl font-semibold mb-2">Asesoría de Negocios</h4>
+                    <p>Planeación fiscal, reestructuración empresarial y defensa legal contra autoridades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clientes -->
+    <section id="clientes" class="py-20 bg-[var(--gray-light)] animate__animated animate__fadeInUp">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h3 class="text-3xl font-serif-premium mb-12 text-[var(--blue-main)]">Nuestros Clientes</h3>
+            <div class="flex flex-wrap justify-center gap-8">
+                <img src="../assets/descarga.svg" alt="Cliente 1" class="object-contain grayscale hover:grayscale-0 transition">
+                <img src="../assets/descarga.svg" alt="Cliente 2" class="object-contain grayscale hover:grayscale-0 transition">
+                <img src="../assets/descarga.svg" alt="Cliente 3" class="object-contain grayscale hover:grayscale-0 transition">
+                <img src="../assets/descarga.svg" alt="Cliente 4" class="object-contain grayscale hover:grayscale-0 transition">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="bg-[var(--blue-main)] text-white py-20 animate__animated animate__fadeInUp">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h3 class="text-3xl font-serif-premium mb-6">Contáctanos</h3>
+            <p class="mb-4">📞 +52 1 871 308 1763</p>
+            <p class="mb-4">✉ atencionalcliente@lagunasonder.com.mx</p>
+            <p>🌐 www.lagunasonder.com</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-6 text-center">
+        © 2025 LAGUNA SONDER. Todos los derechos reservados.
+    </footer>
+
+</body>
+
+</html>
